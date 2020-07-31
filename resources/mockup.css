@@ -8,6 +8,7 @@ html {
 
 body {
 	font-family: helvetica, sans-serif; 
+	background-color: #f5928c;
 }
 
 .container {
@@ -18,3 +19,139 @@ body {
 div {
 	display: block; 
 }
+/**Company Header/Logo**/
+.menu {
+	background-color: #f5928c; 
+	color: white;
+	
+}
+
+.menu .container {
+	display: flex; 
+	align-items: center; 
+	 padding: 1rem 0; 
+	
+}
+
+.menu img {
+	height: 1rem; 
+	margin-left: 2rem; 
+	margin-right: 1rem; 
+}
+
+
+.logo {
+	background-color: #f5928c; 
+	
+}
+
+.logo .container {
+	display: flex; 
+	align-items: center; 
+	 padding: 1rem 0; 
+	
+}
+
+.logo img {
+	height: 8.2rem; 
+	margin-left: 0rem; 
+	margin-right: 1rem; 
+}
+
+ h2 {
+	font-size: 1rem;
+}
+
+/**Company Header / Navigation**/
+
+header {
+	position: relative; 
+	top: 1rem;
+	align-items: center; 
+	justify-content: center; 
+	z-index: 3; 
+}
+
+header nav {
+	float: right; 
+	text-align: right; 
+	flex-grow: 2; 
+}
+
+header nav ul li {
+	color: white; 
+	list-style-type: none; 
+	display: inline-block;  
+	align-items: center;
+	padding: 1rem .5rem;
+	margin-right: 1.5rem;
+}
+
+li a {
+	color: white; 
+	list-style-type: none; 
+	text-decoration: none; 
+}
+/**Company Header / Box**/
+
+.header_img {
+	background-image: url("images/glasses-bg.png"); 
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	height: 30rem; 
+}
+
+
+.header_box {
+	color: whte; 
+	position: absolute; 
+	top: 10rem;
+	left: 2rem;
+	padding: 4rem 10rem;
+}
+
+.header_box h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"sans-serif; 
+	font-weight: lighter; 
+	font-size: 2.2rem; 
+	line-height: 1.2; 	
+	display: block;
+	color: white; 
+}
+
+/**Woman Background**/
+
+.woman-background
+
+{
+	position: absolute; 
+	top: 10rem; 
+	right: 3rem; 
+	
+}
+
+
+ .circle
+    {
+      position:absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1;
+    }
+
+ .tree
+    {
+      position:absolute;
+      top: 25px;
+      left: 25px;
+      z-index: 2;
+    }
+
+.model
+    {
+      position:absolute;
+      top: 25px;
+      left: 25px;
+      z-index: 3;
+    }
