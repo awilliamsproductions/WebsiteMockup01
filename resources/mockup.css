@@ -1,0 +1,20 @@
+  
+/**Universal Changes**/ 
+
+html {
+	font-size: 18px; 
+	line-height: 1.4; 
+}
+
+body {
+	font-family: helvetica, sans-serif; 
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto; 
+}
+
+div {
+	display: block; 
+}
